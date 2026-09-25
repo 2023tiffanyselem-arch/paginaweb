@@ -1,0 +1,187 @@
+*{
+        margin:0;
+            padding:0;
+                box-sizing:border-box;
+                }
+
+                body{
+                    font-family:'Poppins', sans-serif;
+                        background:#f6f5f3;
+                            color:#27496d;
+                            }
+
+                            /* HEADER */
+
+                            header{
+                                display:flex;
+                                    justify-content:space-between;
+                                        align-items:center;
+                                            padding:20px 60px;
+                                                background:#f6f5f3;
+                                                }
+
+                                                .logo{
+                                                    display:flex;
+                                                        align-items:center;
+                                                            gap:12px;
+                                                            }
+
+                                                            .logo img{
+                                                                width:60px;
+                                                                    height:60px;
+                                                                    }
+
+                                                                    .logo h1{
+                                                                        font-family:'Playfair Display', serif;
+                                                                            font-size:36px;
+                                                                                color:#234b73;
+                                                                                }
+
+                                                                                .logo span{
+                                                                                    font-family:cursive;
+                                                                                        font-size:28px;
+                                                                                            color:#7ba7d9;
+                                                                                            }
+
+                                                                                            nav{
+                                                                                                display:flex;
+                                                                                                    gap:28px;
+                                                                                                    }
+
+                                                                                                    nav a{
+                                                                                                        text-decoration:none;
+                                                                                                            color:#27496d;
+                                                                                                                font-size:16px;
+                                                                                                                }
+
+                                                                                                                nav .activo{
+                                                                                                                    border-bottom:2px solid #7ba7d9;
+                                                                                                                        padding-bottom:4px;
+                                                                                                                        }
+
+                                                                                                                        .btn-recetario{
+                                                                                                                            text-decoration:none;
+                                                                                                                                background:#d9ebf7;
+                                                                                                                                    color:#27496d;
+                                                                                                                                        padding:12px 22px;
+                                                                                                                                            border-radius:30px;
+                                                                                                                                                font-weight:500;
+                                                                                                                                                }
+
+                                                                                                                                                /* HERO */
+
+                                                                                                                                                .hero{
+                                                                                                                                                    display:flex;
+                                                                                                                                                        justify-content:space-between;
+                                                                                                                                                            align-items:center;
+                                                                                                                                                                padding:70px 80px;
+                                                                                                                                                                    background:#eaf4fb;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    .hero-texto{
+                                                                                                                                                                        max-width:45%;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .hero-texto h2{
+                                                                                                                                                                            font-family:'Playfair Display', serif;
+                                                                                                                                                                                font-size:92px;
+                                                                                                                                                                                    color:#234b73;
+                                                                                                                                                                                        line-height:1;
+                                                                                                                                                                                        }
+
+                                                                                                                                                                                        .hero-texto h3{
+                                                                                                                                                                                            font-family:cursive;
+                                                                                                                                                                                                font-size:80px;
+                                                                                                                                                                                                    color:#7ba7d9;
+                                                                                                                                                                                                        margin-bottom:30px;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        .hero-texto p{
+                                                                                                                                                                                                            font-size:22px;
+                                                                                                                                                                                                                line-height:1.7;
+                                                                                                                                                                                                                    margin-bottom:35px;
+                                                                                                                                                                                                                        color:#345b7d;
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        .btn-principal{
+                                                                                                                                                                                                                            display:inline-block;
+                                                                                                                                                                                                                                text-decoration:none;
+                                                                                                                                                                                                                                    background:#7ba7d9;
+                                                                                                                                                                                                                                        color:white;
+                                                                                                                                                                                                                                            padding:16px 34px;
+                                                                                                                                                                                                                                                border-radius:35px;
+                                                                                                                                                                                                                                                    font-size:18px;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .hero-imagen img{
+                                                                                                                                                                                                                                                        width:560px;
+                                                                                                                                                                                                                                                            border-radius:50%;
+                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                            /* CARACTERISTICAS */
+
+                                                                                                                                                                                                                                                            .caracteristicas{
+                                                                                                                                                                                                                                                                display:grid;
+                                                                                                                                                                                                                                                                    grid-template-columns:repeat(4,1fr);
+                                                                                                                                                                                                                                                                        gap:25px;
+                                                                                                                                                                                                                                                                            padding:50px 60px;
+                                                                                                                                                                                                                                                                                background:#f6f5f3;
+                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                .card{
+                                                                                                                                                                                                                                                                                    text-align:center;
+                                                                                                                                                                                                                                                                                        padding:20px;
+                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                        .icono{
+                                                                                                                                                                                                                                                                                            width:75px;
+                                                                                                                                                                                                                                                                                                height:75px;
+                                                                                                                                                                                                                                                                                                    margin:0 auto 20px;
+                                                                                                                                                                                                                                                                                                        border-radius:50%;
+                                                                                                                                                                                                                                                                                                            background:#d9ebf7;
+                                                                                                                                                                                                                                                                                                                display:flex;
+                                                                                                                                                                                                                                                                                                                    justify-content:center;
+                                                                                                                                                                                                                                                                                                                        align-items:center;
+                                                                                                                                                                                                                                                                                                                            font-size:32px;
+                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                            .card h4{
+                                                                                                                                                                                                                                                                                                                                font-family:'Playfair Display', serif;
+                                                                                                                                                                                                                                                                                                                                    font-size:24px;
+                                                                                                                                                                                                                                                                                                                                        color:#234b73;
+                                                                                                                                                                                                                                                                                                                                            margin-bottom:12px;
+                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                            .card p{
+                                                                                                                                                                                                                                                                                                                                                color:#5b738c;
+                                                                                                                                                                                                                                                                                                                                                    line-height:1.6;
+                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                    /* FOOTER */
+
+                                                                                                                                                                                                                                                                                                                                                    footer{
+                                                                                                                                                                                                                                                                                                                                                        background:#d9ebf7;
+                                                                                                                                                                                                                                                                                                                                                            text-align:center;
+                                                                                                                                                                                                                                                                                                                                                                padding:35px 20px;
+                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                                footer p{
+                                                                                                                                                                                                                                                                                                                                                                    color:#27496d;
+                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                    .redes{
+                                                                                                                                                                                                                                                                                                                                                                        margin:15px 0;
+                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                                        .redes a{
+                                                                                                                                                                                                                                                                                                                                                                            margin:0 12px;
+                                                                                                                                                                                                                                                                                                                                                                                text-decoration:none;
+                                                                                                                                                                                                                                                                                                                                                                                    color:#234b73;
+                                                                                                                                                                                                                                                                                                                                                                                        font-weight:500;
+                                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                                                        .copy{
+                                                                                                                                                                                                                                                                                                                                                                                            font-size:14px;
+                                                                                                                                                                                                                                                                                                                                                                                                color:#5b738c;
+                                                                                                                                                                                                                                                                                                                                                                                                }
+}
